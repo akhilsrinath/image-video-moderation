@@ -17,7 +17,7 @@ import cv2
 from collections import Counter
 import os 
 
-vids = ['/Users/Divum/Desktop/zoom/vids/guns1.mp4', '/Users/Divum/Desktop/zoom/vids/guns2.mp4', '/Users/Divum/Desktop/zoom/vids/sample1.mp4', '/Users/Divum/Desktop/zoom/vids/sample2.mp4', '/Users/Divum/Desktop/zoom/vids/sample3.avi']   # list of sample videos
+# vids = videos to be moderated
 
 ap = argparse.ArgumentParser()
 ap.add_argument("-m", "--model", required=True, help="path to trained model")
